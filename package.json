@@ -9,7 +9,8 @@
     "lint": "next lint",
     "test": "jest --watch",
     "lint:fix": "next lint --fix",
-    "format": "prettier --write --ignore-path .gitignore './**/*.{ts,tsx,json}'"
+    "format": "prettier --write --ignore-path .gitignore './**/*.{ts,tsx,json}'",
+    "mock-api": "json-server --watch data/db.json --port 8000"
   },
   "dependencies": {
     "next": "14.2.5",
@@ -27,6 +28,7 @@
     "eslint-config-prettier": "^9.1.0",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
+    "json-server": "^1.0.0-beta.1",
     "prettier": "3.3.3",
     "typescript": "^5"
   },
