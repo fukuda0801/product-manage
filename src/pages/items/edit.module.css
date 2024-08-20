@@ -1,0 +1,28 @@
+.editFormContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.editForm {
+  border: 1px solid #666;
+  border-radius: 10px;
+  color: #666;
+  padding: 2rem 3rem;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.editForm:hover {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-3px);
+}
+
+.editInputGroup > * {
+  margin-bottom: 1rem;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-around;
+}

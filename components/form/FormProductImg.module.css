@@ -1,0 +1,14 @@
+.formImgGroup {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.formImgContent {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.formImgInput {
+  color: #666;
+}
